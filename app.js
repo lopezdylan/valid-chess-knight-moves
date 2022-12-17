@@ -49,7 +49,7 @@ function validPosition(position) {
         let currXPos = xCordNum + movementArry[i][0];
         // Get the corresponding letter. If out of bounds (outside of the board)
         // then it will return undefined (b/c passing in negative int or out of range)
-        xCordLetter = letterArr[currXPos];
+        let xCordLetter = letterArr[currXPos];
         // console.log(i, ' L ', xCordLetter);
 
         // Store the Y position after applying the Y position from the current
